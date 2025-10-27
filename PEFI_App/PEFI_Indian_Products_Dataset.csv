@@ -1,0 +1,501 @@
+Product_ID,Product_Name,Category,Material_Type,Packaging_Type,Energy_Consumption_Manufacturing,Source_Country,Transport_Distance_km,Carbon_Footprint_kgCO2,Recyclability_Percent,Durability_Years,Eco_Certification,Eco_Friendliness_Index
+1,Tata Tea Premium,FMCG_Food,Plastic,Recyclable Cardboard,Very Low,India,328,2.2,13,1.0,None,60
+2,Parle-G Biscuits,FMCG_Food,Plastic,Biodegradable Plastic,Medium,India,195,5.9,26,0.9,None,59
+3,Amul Butter,FMCG_Food,Metal,Compostable Packaging,Low,India,384,8.2,70,1.2,GOTS,82
+4,Britannia Marie Gold,FMCG_Food,Glass,Biodegradable Paper,Low,India,444,3.2,96,0.2,None,79
+5,Maggi Noodles,FMCG_Food,Metal,Biodegradable Paper,Low,China,4598,10.9,82,0.2,None,64
+6,Dabur Honey,FMCG_Food,Metal,Reusable Container,Very Low,India,171,4.2,77,1.2,None,81
+7,Fortune Sunflower Oil,FMCG_Food,Paper,Recyclable Plastic,Medium,India,750,5.2,75,0.6,Energy Star,73
+8,Aashirvaad Atta,FMCG_Food,Plastic,Biodegradable Plastic,Very Low,India,350,2.2,22,0.5,None,56
+9,Mother Dairy Milk,FMCG_Food,Metal,Multi-layer Plastic,Very Low,India,157,4.4,71,1.2,None,65
+10,Haldiram Namkeen,FMCG_Food,Plastic,Multi-layer Plastic,Very Low,Bangladesh,1122,2.9,25,0.7,None,43
+11,MDH Spices,FMCG_Food,Plastic+Paper,Recyclable Glass,Medium,India,674,5.9,63,0.9,None,74
+12,Everest Masala,FMCG_Food,Plastic+Paper,Reusable Container,Low,Sri Lanka,641,4.0,42,1.2,None,68
+13,Kissan Ketchup,FMCG_Food,Paper,Recyclable Glass,Very Low,India,165,1.4,89,1.5,None,89
+14,Bisleri Water,FMCG_Food,Metal,Recyclable Cardboard,Very Low,China,4896,8.8,94,0.5,None,70
+15,Red Label Tea,FMCG_Food,Plastic,Biodegradable Paper,Medium,India,103,6.5,38,1.1,None,69
+16,Nescafe Coffee,FMCG_Food,Paper,Minimal Packaging,Low,Bangladesh,1105,3.9,86,1.0,GreenPro,81
+17,Amul Cheese,FMCG_Food,Paper,Minimal Packaging,Very Low,Thailand,3113,3.7,70,0.3,None,62
+18,MTR Ready Mix,FMCG_Food,Glass,Multi-layer Plastic,Low,India,680,4.2,91,1.1,None,70
+19,Safal Frozen Vegetables,FMCG_Food,Metal,Recyclable Glass,Low,India,662,7.8,86,1.3,None,84
+20,Patanjali Ghee,FMCG_Food,Paper,Minimal Packaging,Very Low,India,419,1.6,90,0.6,None,78
+21,Samsung Galaxy M32,Electronics,Metal+Glass,Recyclable Plastic,High,India,446,27.4,52,3.4,BIS,58
+22,Redmi Note 12,Electronics,Plastic,Recyclable Cardboard,High,India,132,10.7,12,5.1,GOTS,60
+23,OnePlus Nord,Electronics,Metal+Plastic,Minimal Packaging,High,Vietnam,3969,26.3,37,6.7,None,52
+24,Boat Airdopes,Electronics,Metal+Plastic,Recyclable Plastic,High,Vietnam,3525,25.7,44,7.2,Ecomark,56
+25,Realme Smart TV,Electronics,Plastic,Recyclable Plastic,High,China,4194,13.9,13,3.5,GOTS,45
+26,Mi Power Bank,Electronics,Metal+Plastic,Compostable Packaging,High,India,355,23.7,32,4.7,None,57
+27,HP Laptop 15s,Electronics,Plastic,Recyclable Plastic,High,Vietnam,3907,13.7,12,7.6,None,48
+28,Lenovo IdeaPad,Electronics,Metal+Plastic,Compostable Packaging,Very High,China,4321,45.9,35,4.3,None,42
+29,boAt Smartwatch,Electronics,Metal+Glass,Recyclable Paper+Foil,Very High,China,4996,54.0,52,6.0,None,42
+30,JBL Bluetooth Speaker,Electronics,Metal+Plastic,Biodegradable Paper,High,South Korea,6186,28.2,31,6.5,FSC,56
+31,Sony Bravia TV,Electronics,Metal+Glass,Minimal Packaging,Medium,India,620,17.6,40,2.4,GreenPro,59
+32,LG Refrigerator,Electronics,Metal+Plastic,Compostable Packaging,High,Japan,6666,28.1,49,2.2,Ecomark,53
+33,Samsung Washing Machine,Electronics,Plastic,Biodegradable Plastic,Medium,India,367,6.0,32,3.9,FSSAI,64
+34,Whirlpool AC,Electronics,Plastic,Biodegradable Paper,Very High,India,174,20.4,29,8.0,None,65
+35,Voltas Air Cooler,Electronics,Metal+Plastic,Minimal Packaging,High,China,3771,26.5,32,7.3,None,52
+36,Crompton Fan,Electronics,Metal+Plastic,Recyclable Paper+Foil,Medium,Vietnam,3883,17.1,47,3.8,None,49
+37,Prestige Induction Cooktop,Electronics,Metal+Plastic,Biodegradable Paper,High,Germany,7633,28.8,39,5.6,None,53
+38,Philips LED Bulb,Electronics,Metal+Plastic,Biodegradable Paper,Medium,China,3604,17.0,43,7.0,Energy Star,65
+39,Havells Iron,Electronics,Metal+Plastic,Biodegradable Paper,High,Vietnam,3929,26.3,47,2.1,Ecomark,54
+40,Bajaj Mixer Grinder,Electronics,Metal+Plastic,Minimal Packaging,High,Thailand,3096,25.5,43,2.8,None,47
+41,Fabindia Cotton Kurta,Clothing,Cotton,Reusable Container,Low,India,782,5.8,93,4.9,None,88
+42,Allen Solly Shirt,Clothing,Cotton,Recyclable Glass,Low,Bangladesh,825,5.9,90,4.1,Ecomark,86
+43,Peter England Trousers,Clothing,Plastic,Multi-layer Plastic,Medium,India,210,6.1,11,4.4,GreenPro,51
+44,Woodland Shoes,Clothing,Synthetic,Reusable Container,Medium,Vietnam,3266,10.8,11,2.6,BIS,51
+45,Bata Sandals,Clothing,Synthetic,Reusable Container,Very Low,India,795,4.6,15,4.8,Energy Star,69
+46,Raymond Suit,Clothing,Cotton,Biodegradable Plastic,Medium,India,710,8.5,90,2.7,None,77
+47,Nike Running Shoes,Clothing,Cotton,Compostable Packaging,Very Low,India,145,3.6,80,3.1,None,80
+48,Puma T-Shirt,Clothing,Plastic,Multi-layer Plastic,Medium,India,780,7.0,29,2.3,None,46
+49,Levi's Jeans,Clothing,Plastic,Biodegradable Paper,Very Low,India,518,2.5,32,2.2,GOTS,68
+50,Zara Dress,Clothing,Plastic,Compostable Packaging,Very Low,China,3856,5.5,19,2.6,None,53
+51,H&M Top,Clothing,Synthetic,Biodegradable Paper,Low,India,693,6.7,15,2.9,FSSAI,64
+52,Uniqlo Jacket,Clothing,Plastic,Recyclable Paper+Foil,Very Low,India,186,2.2,31,3.5,GreenPro,65
+53,Manyavar Sherwani,Clothing,Cotton,Biodegradable Paper,Low,Vietnam,3101,7.6,87,4.9,None,80
+54,Jockey Innerwear,Clothing,Cotton,Recyclable Paper+Foil,Medium,Bangladesh,1389,8.8,92,3.0,Ecomark,76
+55,Liberty Shoes,Clothing,Plastic,Recyclable Cardboard,Low,China,3948,6.8,40,3.8,None,61
+56,Relaxo Chappals,Clothing,Plastic,Multi-layer Plastic,Low,India,575,4.6,27,3.4,None,49
+57,Monte Carlo Sweater,Clothing,Synthetic,Biodegradable Plastic,Very Low,Bangladesh,1236,4.8,19,4.6,None,60
+58,Soch Ethnic Wear,Clothing,Synthetic,Recyclable Paper+Foil,Medium,China,4805,12.1,20,3.5,BIS,51
+59,W for Woman Kurti,Clothing,Plastic,Biodegradable Paper,Low,India,427,4.7,12,1.6,Ecomark,60
+60,Blackberrys Blazer,Clothing,Cotton,Multi-layer Plastic,Low,India,438,6.0,93,1.2,None,62
+61,Himalaya Face Wash,Personal_Care,Glass,Biodegradable Plastic,Very Low,India,689,2.2,90,1.9,GOTS,89
+62,Lakme Lipstick,Personal_Care,Glass,Minimal Packaging,Very Low,China,4735,5.9,97,0.8,None,72
+63,Dove Soap,Personal_Care,Plastic,Compostable Packaging,Medium,India,514,6.6,36,1.2,FSC,70
+64,Patanjali Shampoo,Personal_Care,Paper,Recyclable Cardboard,Medium,India,778,4.4,90,1.1,None,80
+65,Nivea Body Lotion,Personal_Care,Plastic,Recyclable Cardboard,Medium,India,316,6.2,20,1.6,None,63
+66,Biotique Face Pack,Personal_Care,Glass,Biodegradable Paper,Low,India,652,3.3,95,0.8,Ecomark,86
+67,Mamaearth Baby Wash,Personal_Care,Plastic,Recyclable Cardboard,Low,India,120,4.2,17,0.7,None,56
+68,WOW Skin Science,Personal_Care,Paper,Multi-layer Plastic,Medium,India,477,4.3,89,1.9,None,72
+69,The Body Shop Cream,Personal_Care,Plastic,Biodegradable Paper,Low,India,419,4.4,39,1.9,None,73
+70,Plum Goodness Serum,Personal_Care,Paper,Multi-layer Plastic,Low,India,742,3.0,79,1.8,None,69
+71,Forest Essentials Oil,Personal_Care,Plastic,Biodegradable Plastic,Low,India,538,4.6,12,1.3,GreenPro,61
+72,Khadi Natural Soap,Personal_Care,Glass,Recyclable Paper+Foil,Low,India,470,3.7,97,1.6,None,82
+73,Gillette Razor,Personal_Care,Paper,Minimal Packaging,Very Low,India,651,2.2,84,1.2,None,79
+74,Veet Hair Removal,Personal_Care,Glass,Reusable Container,Low,Vietnam,2977,5.4,97,0.9,None,74
+75,Dettol Handwash,Personal_Care,Paper,Compostable Packaging,Medium,India,432,4.3,76,1.0,Energy Star,81
+76,Pears Soap,Personal_Care,Paper,Biodegradable Paper,Very Low,India,295,1.2,83,1.2,None,82
+77,Vaseline Lotion,Personal_Care,Paper,Recyclable Paper+Foil,Very Low,China,4417,5.2,72,0.9,None,61
+78,Ponds Face Cream,Personal_Care,Plastic,Biodegradable Paper,Very Low,India,584,2.8,21,1.1,None,62
+79,Garnier Face Wash,Personal_Care,Glass,Reusable Container,Very Low,India,413,1.8,91,1.6,Ecomark,90
+80,L'Oreal Shampoo,Personal_Care,Paper,Recyclable Glass,Low,India,595,2.9,88,2.0,None,88
+81,Nirma Detergent,Homecare,Paper,Recyclable Plastic,Low,India,469,2.7,70,1.6,BIS,79
+82,Surf Excel Liquid,Homecare,Plastic,Minimal Packaging,Medium,India,229,6.3,34,1.2,None,63
+83,Harpic Toilet Cleaner,Homecare,Plastic+Paper,Biodegradable Paper,Medium,India,448,5.3,41,0.9,None,66
+84,Vim Dishwash,Homecare,Plastic,Recyclable Plastic,Medium,India,690,6.7,11,0.7,None,49
+85,Lizol Floor Cleaner,Homecare,Paper,Recyclable Plastic,Low,India,526,3.2,89,0.8,None,74
+86,Colin Glass Cleaner,Homecare,Paper,Recyclable Paper+Foil,Medium,Bangladesh,1239,5.1,89,0.6,None,68
+87,Mortein Mosquito Coil,Homecare,Plastic,Multi-layer Plastic,Very Low,India,776,2.5,17,0.8,BIS,47
+88,Good Knight,Homecare,Paper,Recyclable Paper+Foil,Very Low,India,398,1.3,79,1.6,None,77
+89,Odonil Room Freshener,Homecare,Paper,Recyclable Plastic,Very Low,India,370,2.0,90,1.4,None,80
+90,Ariel Detergent,Homecare,Plastic,Compostable Packaging,Low,India,763,4.3,18,1.7,FSSAI,69
+91,Comfort Fabric Conditioner,Homecare,Paper,Biodegradable Plastic,Very Low,Vietnam,3391,4.1,84,1.5,None,73
+92,Ghadi Detergent,Homecare,Paper,Minimal Packaging,Very Low,India,182,1.6,83,1.6,None,82
+93,Ujala Supreme,Homecare,Plastic,Recyclable Plastic,Low,Japan,6678,9.4,10,2.0,None,50
+94,Domex Cleaner,Homecare,Paper,Biodegradable Plastic,Low,China,3858,5.7,90,1.2,None,72
+95,Cif Cream,Homecare,Plastic+Paper,Compostable Packaging,Very Low,Vietnam,2986,4.3,53,1.0,None,63
+96,Godrej Air Freshener,Homecare,Plastic,Reusable Container,Medium,India,395,6.5,22,1.7,None,64
+97,Hit Spray,Homecare,Paper,Recyclable Plastic,Medium,India,218,4.9,82,1.8,None,79
+98,All Out Refill,Homecare,Plastic,Minimal Packaging,Medium,India,292,6.3,29,1.6,None,64
+99,Scotch-Brite Scrubber,Homecare,Plastic,Multi-layer Plastic,Medium,India,394,6.3,32,1.2,Ecomark,53
+100,Ezee Liquid Detergent,Homecare,Plastic+Paper,Multi-layer Plastic,Very Low,India,664,1.9,53,0.6,None,53
+101,Prestige Pressure Cooker,Kitchenware,Metal,Recyclable Paper+Foil,High,India,257,17.2,92,9.4,None,70
+102,Hawkins Cooker,Kitchenware,Plastic,Recyclable Paper+Foil,Very High,India,664,20.9,16,18.8,None,53
+103,Pigeon Gas Stove,Kitchenware,Aluminum,Recyclable Plastic,Very High,China,4349,40.3,83,17.3,Energy Star,62
+104,Milton Casserole,Kitchenware,Plastic,Recyclable Glass,Very High,India,453,20.9,34,13.2,None,60
+105,Cello Water Bottle,Kitchenware,Glass,Multi-layer Plastic,Medium,India,492,5.1,96,5.7,None,64
+106,Tupperware Container,Kitchenware,Plastic,Compostable Packaging,Medium,China,4835,10.3,25,19.5,FSC,63
+107,Borosil Glassware,Kitchenware,Glass,Recyclable Plastic,Very High,India,567,18.2,92,11.1,None,72
+108,Wonderchef Kadhai,Kitchenware,Aluminum,Recyclable Plastic,Very High,China,4042,40.1,87,14.7,None,57
+109,Butterfly Mixer,Kitchenware,Plastic,Reusable Container,Medium,China,4499,10.0,11,14.3,Ecomark,55
+110,Philips Air Fryer,Kitchenware,Glass,Multi-layer Plastic,Medium,India,200,5.4,91,11.7,None,67
+111,Kent Water Purifier,Kitchenware,Metal,Recyclable Cardboard,Very High,China,4100,35.1,83,7.2,None,56
+112,Aquaguard RO,Kitchenware,Aluminum,Recyclable Glass,High,India,491,20.5,82,12.5,None,74
+113,Nayasa Lunchbox,Kitchenware,Aluminum,Recyclable Paper+Foil,Medium,India,361,13.0,89,18.5,None,77
+114,Signoraware Lunchbox,Kitchenware,Aluminum,Recyclable Plastic,Very High,USA,14406,48.3,88,15.4,None,55
+115,Vinod Cookware,Kitchenware,Glass,Multi-layer Plastic,Very High,Bangladesh,909,18.7,99,10.4,Ecomark,64
+116,Sumeet Mixer,Kitchenware,Glass,Recyclable Cardboard,Medium,India,108,5.2,100,16.7,None,87
+117,Bajaj OTG,Kitchenware,Plastic,Biodegradable Paper,High,India,460,10.3,16,14.3,None,60
+118,Morphy Richards Toaster,Kitchenware,Aluminum,Recyclable Plastic,Medium,India,416,13.1,76,13.7,None,71
+119,Stovekraft Cooker,Kitchenware,Metal,Biodegradable Paper,Very High,China,3859,34.8,95,13.1,None,66
+120,Nirlep Frying Pan,Kitchenware,Glass,Recyclable Glass,Very High,Thailand,3466,21.0,94,16.2,BIS,77
+121,Classmate Notebook,Stationery,Plastic,Recyclable Plastic,Low,China,3962,7.5,33,2.1,None,53
+122,Natraj Pencil,Stationery,Wood,Reusable Container,Low,China,3528,6.3,63,1.5,None,64
+123,Reynolds Pen,Stationery,Wood,Biodegradable Paper,Very Low,India,753,3.1,63,2.1,None,77
+124,Camlin Crayons,Stationery,Wood,Minimal Packaging,Medium,Thailand,2726,8.0,80,2.5,None,72
+125,Apsara Eraser,Stationery,Plastic,Compostable Packaging,Low,India,138,3.9,25,0.6,FSC,61
+126,Fevicol Glue,Stationery,Paper,Compostable Packaging,Medium,India,653,4.7,74,2.7,None,82
+127,Luxor Highlighter,Stationery,Plastic,Biodegradable Plastic,Medium,USA,13145,16.0,21,0.9,None,42
+128,Cello Tape,Stationery,Paper,Reusable Container,Low,South Korea,5752,7.3,90,1.3,None,71
+129,Staedtler Marker,Stationery,Paper,Recyclable Plastic,Medium,India,317,4.7,89,2.9,Energy Star,86
+130,Faber Castell Colors,Stationery,Paper,Recyclable Glass,Very Low,India,667,1.6,76,2.5,GreenPro,87
+131,Dominar Copy,Stationery,Paper,Biodegradable Plastic,Low,India,248,3.3,87,1.0,Ecomark,79
+132,ITC Notebook,Stationery,Paper,Recyclable Glass,Low,India,343,3.0,70,0.8,Ecomark,76
+133,Parker Pen,Stationery,Plastic,Minimal Packaging,Low,China,4475,7.5,21,1.7,FSC,55
+134,Pilot V5,Stationery,Paper,Biodegradable Plastic,Low,China,4849,6.5,84,2.0,GOTS,75
+135,Papermate Pen,Stationery,Plastic,Compostable Packaging,Very Low,India,554,2.3,12,1.2,FSSAI,61
+136,Kores Correction Tape,Stationery,Plastic,Biodegradable Plastic,Very Low,India,432,2.5,29,1.7,None,61
+137,Doms Sharpener,Stationery,Wood,Compostable Packaging,Low,China,3734,7.1,80,2.7,None,76
+138,Camel Art Set,Stationery,Paper,Compostable Packaging,Medium,Bangladesh,1223,5.1,84,1.4,None,76
+139,Kangaro Stapler,Stationery,Plastic,Compostable Packaging,Medium,India,483,6.8,31,2.8,GreenPro,73
+140,Oddy Files,Stationery,Paper,Recyclable Plastic,Medium,India,481,5.0,87,0.5,None,70
+141,Cosco Cricket Bat,Sports,Metal,Recyclable Plastic,Medium,India,781,11.6,83,5.3,None,77
+142,Nivia Football,Sports,Metal,Biodegradable Plastic,Medium,India,691,11.1,74,4.3,BIS,78
+143,Yonex Badminton Racket,Sports,Metal,Minimal Packaging,Medium,India,385,10.9,95,3.1,None,78
+144,SG Cricket Ball,Sports,Synthetic,Biodegradable Plastic,Very Low,Vietnam,3347,5.7,13,4.5,None,51
+145,Decathlon Yoga Mat,Sports,Metal,Reusable Container,Low,India,246,7.9,82,1.3,None,72
+146,Adidas Running Shoes,Sports,Synthetic,Recyclable Plastic,Very Low,India,485,3.8,15,1.8,Energy Star,54
+147,Puma Gym Bag,Sports,Synthetic,Recyclable Cardboard,Low,India,732,6.1,7,2.4,None,53
+148,Reebok Dumbbells,Sports,Cotton,Biodegradable Plastic,Medium,India,320,8.5,83,2.7,Ecomark,77
+149,Nivia Tennis Racket,Sports,Cotton,Minimal Packaging,Very Low,India,325,3.4,81,1.0,FSSAI,75
+150,Vector X Volleyball,Sports,Plastic,Biodegradable Paper,Medium,India,107,6.1,23,1.9,None,58
+151,Spartan Cricket Helmet,Sports,Plastic,Minimal Packaging,Very Low,Vietnam,3525,4.6,37,4.7,None,60
+152,SS Cricket Bat,Sports,Cotton,Recyclable Plastic,Medium,India,687,8.5,93,2.4,None,74
+153,Burn Gym Gloves,Sports,Metal,Recyclable Glass,Very Low,India,470,4.5,73,2.2,None,74
+154,Nivia Studs,Sports,Synthetic,Compostable Packaging,Medium,China,3953,11.5,10,1.4,None,43
+155,Mayor Cricket Pads,Sports,Plastic,Reusable Container,Medium,China,4821,10.2,17,1.5,None,45
+156,Dixon Tennis Ball,Sports,Plastic,Biodegradable Plastic,Low,China,4842,7.4,40,4.9,None,59
+157,Stag Table Tennis Bat,Sports,Cotton,Biodegradable Plastic,Very Low,India,739,3.7,90,1.8,GOTS,79
+158,Jaspo Skating Shoes,Sports,Metal,Biodegradable Paper,Very Low,India,619,4.6,84,3.3,GreenPro,85
+159,Cosco Basketball,Sports,Metal,Recyclable Plastic,Very Low,Bangladesh,892,5.3,86,2.9,None,71
+160,Kipsta Shoes,Sports,Synthetic,Recyclable Paper+Foil,Very Low,India,429,3.9,9,5.8,None,58
+161,Pigeon Gas Stove 1,Kitchenware,Aluminum,Recyclable Plastic,Very High,China,4350,40.3,79,17.3,Energy Star,62
+162,Ujala Supreme 1,Homecare,Plastic,Recyclable Plastic,Low,Japan,6720,9.5,10,2.0,None,47
+163,Red Label Tea 1,FMCG_Food,Plastic,Biodegradable Paper,Medium,India,67,6.3,34,1.1,None,67
+164,Borosil Glassware 1,Kitchenware,Glass,Recyclable Plastic,Very High,India,588,18.3,88,11.1,None,71
+165,Khadi Natural Soap 1,Personal_Care,Glass,Recyclable Paper+Foil,Low,India,480,4.2,93,1.6,None,84
+166,Samsung Galaxy M32 1,Electronics,Metal+Glass,Recyclable Plastic,High,India,416,27.4,49,3.4,BIS,56
+167,Pigeon Gas Stove 2,Kitchenware,Aluminum,Recyclable Plastic,Very High,China,4381,40.7,79,17.3,Energy Star,60
+168,Natraj Pencil 1,Stationery,Wood,Reusable Container,Low,China,3564,6.2,61,1.5,None,63
+169,Dettol Handwash 1,Personal_Care,Paper,Compostable Packaging,Medium,India,456,4.2,79,1.0,Energy Star,79
+170,Good Knight 1,Homecare,Paper,Recyclable Paper+Foil,Very Low,India,422,1.4,79,1.6,None,76
+171,Bajaj OTG 1,Kitchenware,Plastic,Biodegradable Paper,High,India,497,10.5,11,14.3,None,57
+172,Ezee Liquid Detergent 1,Homecare,Plastic+Paper,Multi-layer Plastic,Very Low,India,713,2.3,55,0.6,None,52
+173,Milton Casserole 1,Kitchenware,Plastic,Recyclable Glass,Very High,India,426,20.6,35,13.2,None,59
+174,SS Cricket Bat 1,Sports,Cotton,Recyclable Plastic,Medium,India,639,8.5,97,2.4,None,74
+175,Dominar Copy 1,Stationery,Paper,Biodegradable Plastic,Low,India,219,3.4,84,1.0,Ecomark,78
+176,Vector X Volleyball 1,Sports,Plastic,Biodegradable Paper,Medium,India,109,6.4,18,1.9,None,57
+177,Manyavar Sherwani 1,Clothing,Cotton,Biodegradable Paper,Low,Vietnam,3052,7.1,86,4.9,None,82
+178,Parle-G Biscuits 1,FMCG_Food,Plastic,Biodegradable Plastic,Medium,India,232,6.4,24,0.9,None,56
+179,Good Knight 2,Homecare,Paper,Recyclable Paper+Foil,Very Low,India,377,1.3,83,1.6,None,77
+180,Jaspo Skating Shoes 1,Sports,Metal,Biodegradable Paper,Very Low,India,606,4.4,86,3.3,GreenPro,87
+181,Philips LED Bulb 1,Electronics,Metal+Plastic,Biodegradable Paper,Medium,China,3555,17.4,38,7.0,Energy Star,66
+182,Faber Castell Colors 1,Stationery,Paper,Recyclable Glass,Very Low,India,680,1.8,80,2.5,GreenPro,84
+183,Samsung Galaxy M32 2,Electronics,Metal+Glass,Recyclable Plastic,High,India,455,27.9,47,3.4,BIS,55
+184,Soch Ethnic Wear 1,Clothing,Synthetic,Recyclable Paper+Foil,Medium,China,4775,11.9,18,3.5,BIS,52
+185,Redmi Note 12 1,Electronics,Plastic,Recyclable Cardboard,High,India,114,10.8,14,5.1,GOTS,59
+186,Odonil Room Freshener 1,Homecare,Paper,Recyclable Plastic,Very Low,India,395,2.1,89,1.4,None,82
+187,Levi's Jeans 1,Clothing,Plastic,Biodegradable Paper,Very Low,India,525,3.0,28,2.2,GOTS,66
+188,W for Woman Kurti 1,Clothing,Plastic,Biodegradable Paper,Low,India,398,4.3,12,1.6,Ecomark,60
+189,Red Label Tea 2,FMCG_Food,Plastic,Biodegradable Paper,Medium,India,141,6.3,37,1.1,None,67
+190,H&M Top 1,Clothing,Synthetic,Biodegradable Paper,Low,India,691,6.4,11,2.9,FSSAI,65
+191,Wonderchef Kadhai 1,Kitchenware,Aluminum,Recyclable Plastic,Very High,China,4082,39.9,84,14.7,None,54
+192,Liberty Shoes 1,Clothing,Plastic,Recyclable Cardboard,Low,China,3956,6.8,43,3.8,None,58
+193,Patanjali Shampoo 1,Personal_Care,Paper,Recyclable Cardboard,Medium,India,769,4.3,91,1.1,None,80
+194,Dominar Copy 2,Stationery,Paper,Biodegradable Plastic,Low,India,289,3.2,88,1.0,Ecomark,76
+195,H&M Top 2,Clothing,Synthetic,Biodegradable Paper,Low,India,702,7.0,15,2.9,FSSAI,61
+196,Papermate Pen 1,Stationery,Plastic,Compostable Packaging,Very Low,India,583,2.7,14,1.2,FSSAI,61
+197,Samsung Galaxy M32 3,Electronics,Metal+Glass,Recyclable Plastic,High,India,410,27.0,50,3.4,BIS,60
+198,Gillette Razor 1,Personal_Care,Paper,Minimal Packaging,Very Low,India,662,1.9,86,1.2,None,81
+199,MTR Ready Mix 1,FMCG_Food,Glass,Multi-layer Plastic,Low,India,691,4.4,89,1.1,None,70
+200,ITC Notebook 1,Stationery,Paper,Recyclable Glass,Low,India,339,2.9,72,0.8,Ecomark,77
+201,Odonil Room Freshener 2,Homecare,Paper,Recyclable Plastic,Very Low,India,381,1.8,93,1.4,None,77
+202,Blackberrys Blazer 1,Clothing,Cotton,Multi-layer Plastic,Low,India,438,5.8,90,1.2,None,59
+203,Bisleri Water 1,FMCG_Food,Metal,Recyclable Cardboard,Very Low,China,4900,8.6,91,0.5,None,71
+204,Mother Dairy Milk 1,FMCG_Food,Metal,Multi-layer Plastic,Very Low,India,170,4.7,67,1.2,None,67
+205,Ariel Detergent 1,Homecare,Plastic,Compostable Packaging,Low,India,715,3.9,22,1.7,FSSAI,68
+206,Manyavar Sherwani 2,Clothing,Cotton,Biodegradable Paper,Low,Vietnam,3101,7.8,84,4.9,None,79
+207,Faber Castell Colors 2,Stationery,Paper,Recyclable Glass,Very Low,India,623,1.7,73,2.5,GreenPro,86
+208,Vim Dishwash 1,Homecare,Plastic,Recyclable Plastic,Medium,India,660,6.5,10,0.7,None,51
+209,Ghadi Detergent 1,Homecare,Paper,Minimal Packaging,Very Low,India,204,1.5,82,1.6,None,84
+210,Kent Water Purifier 1,Kitchenware,Metal,Recyclable Cardboard,Very High,China,4088,34.9,79,7.2,None,57
+211,Aashirvaad Atta 1,FMCG_Food,Plastic,Biodegradable Plastic,Very Low,India,317,2.3,26,0.5,None,53
+212,Voltas Air Cooler 1,Electronics,Metal+Plastic,Minimal Packaging,High,China,3724,26.1,32,7.3,None,53
+213,Nirma Detergent 1,Homecare,Paper,Recyclable Plastic,Low,India,507,2.2,69,1.6,BIS,80
+214,Zara Dress 1,Clothing,Plastic,Compostable Packaging,Very Low,China,3865,5.6,19,2.6,None,55
+215,Milton Casserole 2,Kitchenware,Plastic,Recyclable Glass,Very High,India,416,20.6,29,13.2,None,59
+216,ITC Notebook 2,Stationery,Paper,Recyclable Glass,Low,India,301,2.6,69,0.8,Ecomark,74
+217,Parle-G Biscuits 2,FMCG_Food,Plastic,Biodegradable Plastic,Medium,India,234,5.8,29,0.9,None,56
+218,Pilot V5 1,Stationery,Paper,Biodegradable Plastic,Low,China,4851,6.1,88,2.0,GOTS,77
+219,Jockey Innerwear 1,Clothing,Cotton,Recyclable Paper+Foil,Medium,Bangladesh,1340,9.2,88,3.0,Ecomark,75
+220,Tupperware Container 1,Kitchenware,Plastic,Compostable Packaging,Medium,China,4868,9.8,20,19.5,FSC,61
+221,Britannia Marie Gold 1,FMCG_Food,Glass,Biodegradable Paper,Low,India,485,3.3,100,0.2,None,77
+222,Jockey Innerwear 2,Clothing,Cotton,Recyclable Paper+Foil,Medium,Bangladesh,1398,8.7,95,3.0,Ecomark,78
+223,Adidas Running Shoes 1,Sports,Synthetic,Recyclable Plastic,Very Low,India,505,4.0,19,1.8,Energy Star,54
+224,Woodland Shoes 1,Clothing,Synthetic,Reusable Container,Medium,Vietnam,3259,10.6,14,2.6,BIS,48
+225,Bisleri Water 2,FMCG_Food,Metal,Recyclable Cardboard,Very Low,China,4853,8.5,97,0.5,None,68
+226,Cif Cream 1,Homecare,Plastic+Paper,Compostable Packaging,Very Low,Vietnam,2982,4.8,53,1.0,None,65
+227,Puma T-Shirt 1,Clothing,Plastic,Multi-layer Plastic,Medium,India,764,7.3,31,2.3,None,48
+228,Red Label Tea 3,FMCG_Food,Plastic,Biodegradable Paper,Medium,India,130,6.9,33,1.1,None,68
+229,Bajaj Mixer Grinder 1,Electronics,Metal+Plastic,Minimal Packaging,High,Thailand,3126,25.3,47,2.8,None,47
+230,Surf Excel Liquid 1,Homecare,Plastic,Minimal Packaging,Medium,India,214,5.8,32,1.2,None,60
+231,Kent Water Purifier 2,Kitchenware,Metal,Recyclable Cardboard,Very High,China,4099,34.9,78,7.2,None,57
+232,Manyavar Sherwani 3,Clothing,Cotton,Biodegradable Paper,Low,Vietnam,3054,7.6,89,4.9,None,79
+233,Boat Airdopes 1,Electronics,Metal+Plastic,Recyclable Plastic,High,Vietnam,3476,25.5,39,7.2,Ecomark,54
+234,Nivia Studs 1,Sports,Synthetic,Compostable Packaging,Medium,China,3908,11.8,7,1.4,None,41
+235,Camlin Crayons 1,Stationery,Wood,Minimal Packaging,Medium,Thailand,2729,7.8,78,2.5,None,71
+236,Fabindia Cotton Kurta 1,Clothing,Cotton,Reusable Container,Low,India,735,6.3,95,4.9,None,90
+237,Stag Table Tennis Bat 1,Sports,Cotton,Biodegradable Plastic,Very Low,India,742,3.7,90,1.8,GOTS,77
+238,Red Label Tea 4,FMCG_Food,Plastic,Biodegradable Paper,Medium,India,145,6.8,42,1.1,None,69
+239,Bata Sandals 1,Clothing,Synthetic,Reusable Container,Very Low,India,807,4.3,16,4.8,Energy Star,66
+240,Nivea Body Lotion 1,Personal_Care,Plastic,Recyclable Cardboard,Medium,India,283,6.1,22,1.6,None,63
+241,Odonil Room Freshener 3,Homecare,Paper,Recyclable Plastic,Very Low,India,409,2.2,86,1.4,None,78
+242,Forest Essentials Oil 1,Personal_Care,Plastic,Biodegradable Plastic,Low,India,531,4.2,16,1.3,GreenPro,62
+243,Mother Dairy Milk 2,FMCG_Food,Metal,Multi-layer Plastic,Very Low,India,140,4.0,73,1.2,None,62
+244,Good Knight 3,Homecare,Paper,Recyclable Paper+Foil,Very Low,India,421,1.8,76,1.6,None,74
+245,Staedtler Marker 1,Stationery,Paper,Recyclable Plastic,Medium,India,328,4.9,90,2.9,Energy Star,85
+246,Kores Correction Tape 1,Stationery,Plastic,Biodegradable Plastic,Very Low,India,481,2.0,26,1.7,None,60
+247,Dove Soap 1,Personal_Care,Plastic,Compostable Packaging,Medium,India,477,6.5,37,1.2,FSC,71
+248,Kangaro Stapler 1,Stationery,Plastic,Compostable Packaging,Medium,India,527,6.7,27,2.8,GreenPro,75
+249,Nirma Detergent 2,Homecare,Paper,Recyclable Plastic,Low,India,466,2.9,74,1.6,BIS,76
+250,Kores Correction Tape 2,Stationery,Plastic,Biodegradable Plastic,Very Low,India,396,2.3,29,1.7,None,62
+251,Samsung Washing Machine 1,Electronics,Plastic,Biodegradable Plastic,Medium,India,388,5.7,29,3.9,FSSAI,63
+252,Reynolds Pen 1,Stationery,Wood,Biodegradable Paper,Very Low,India,780,2.7,60,2.1,None,76
+253,Maggi Noodles 1,FMCG_Food,Metal,Biodegradable Paper,Low,China,4634,10.8,85,0.2,None,61
+254,Fabindia Cotton Kurta 2,Clothing,Cotton,Reusable Container,Low,India,793,6.0,94,4.9,None,88
+255,Lenovo IdeaPad 1,Electronics,Metal+Plastic,Compostable Packaging,Very High,China,4310,45.5,34,4.3,None,40
+256,Papermate Pen 2,Stationery,Plastic,Compostable Packaging,Very Low,India,588,2.7,16,1.2,FSSAI,60
+257,Khadi Natural Soap 2,Personal_Care,Glass,Recyclable Paper+Foil,Low,India,499,3.6,98,1.6,None,84
+258,Everest Masala 1,FMCG_Food,Plastic+Paper,Reusable Container,Low,Sri Lanka,672,3.7,45,1.2,None,70
+259,Samsung Washing Machine 2,Electronics,Plastic,Biodegradable Plastic,Medium,India,369,5.6,27,3.9,FSSAI,63
+260,Puma T-Shirt 2,Clothing,Plastic,Multi-layer Plastic,Medium,India,753,6.7,30,2.3,None,46
+261,Spartan Cricket Helmet 1,Sports,Plastic,Minimal Packaging,Very Low,Vietnam,3500,5.0,37,4.7,None,60
+262,Lakme Lipstick 1,Personal_Care,Glass,Minimal Packaging,Very Low,China,4773,6.0,100,0.8,None,73
+263,Prestige Induction Cooktop 1,Electronics,Metal+Plastic,Biodegradable Paper,High,Germany,7642,28.8,42,5.6,None,55
+264,Scotch-Brite Scrubber 1,Homecare,Plastic,Multi-layer Plastic,Medium,India,384,6.5,27,1.2,Ecomark,54
+265,Milton Casserole 3,Kitchenware,Plastic,Recyclable Glass,Very High,India,431,20.8,32,13.2,None,62
+266,Voltas Air Cooler 2,Electronics,Metal+Plastic,Minimal Packaging,High,China,3735,26.7,35,7.3,None,50
+267,Prestige Pressure Cooker 1,Kitchenware,Metal,Recyclable Paper+Foil,High,India,251,16.7,90,9.4,None,68
+268,Dominar Copy 3,Stationery,Paper,Biodegradable Plastic,Low,India,262,3.4,91,1.0,Ecomark,76
+269,Tata Tea Premium 1,FMCG_Food,Plastic,Recyclable Cardboard,Very Low,India,366,1.9,10,1.0,None,61
+270,Maggi Noodles 2,FMCG_Food,Metal,Biodegradable Paper,Low,China,4618,10.5,85,0.2,None,63
+271,Nivia Football 1,Sports,Metal,Biodegradable Plastic,Medium,India,649,10.9,70,4.3,BIS,79
+272,Pigeon Gas Stove 3,Kitchenware,Aluminum,Recyclable Plastic,Very High,China,4386,39.9,81,17.3,Energy Star,61
+273,HP Laptop 15s 1,Electronics,Plastic,Recyclable Plastic,High,Vietnam,3857,13.3,12,7.6,None,48
+274,Doms Sharpener 1,Stationery,Wood,Compostable Packaging,Low,China,3691,6.9,76,2.7,None,77
+275,Red Label Tea 5,FMCG_Food,Plastic,Biodegradable Paper,Medium,India,140,7.0,40,1.1,None,69
+276,Ariel Detergent 2,Homecare,Plastic,Compostable Packaging,Low,India,775,4.0,20,1.7,FSSAI,67
+277,Allen Solly Shirt 1,Clothing,Cotton,Recyclable Glass,Low,Bangladesh,785,5.4,85,4.1,Ecomark,84
+278,Camlin Crayons 2,Stationery,Wood,Minimal Packaging,Medium,Thailand,2756,8.3,77,2.5,None,69
+279,Dove Soap 2,Personal_Care,Plastic,Compostable Packaging,Medium,India,471,6.9,40,1.2,FSC,71
+280,Godrej Air Freshener 1,Homecare,Plastic,Reusable Container,Medium,India,379,6.3,25,1.7,None,64
+281,Uniqlo Jacket 1,Clothing,Plastic,Recyclable Paper+Foil,Very Low,India,170,2.2,30,3.5,GreenPro,64
+282,Godrej Air Freshener 2,Homecare,Plastic,Reusable Container,Medium,India,377,6.6,22,1.7,None,62
+283,ITC Notebook 3,Stationery,Paper,Recyclable Glass,Low,India,297,2.5,68,0.8,Ecomark,74
+284,Spartan Cricket Helmet 2,Sports,Plastic,Minimal Packaging,Very Low,Vietnam,3515,5.0,41,4.7,None,59
+285,Yonex Badminton Racket 1,Sports,Metal,Minimal Packaging,Medium,India,362,11.3,91,3.1,None,78
+286,boAt Smartwatch 1,Electronics,Metal+Glass,Recyclable Paper+Foil,Very High,China,4952,53.8,54,6.0,None,42
+287,Crompton Fan 1,Electronics,Metal+Plastic,Recyclable Paper+Foil,Medium,Vietnam,3905,16.6,47,3.8,None,50
+288,Kissan Ketchup 1,FMCG_Food,Paper,Recyclable Glass,Very Low,India,186,1.8,88,1.5,None,90
+289,Kipsta Shoes 1,Sports,Synthetic,Recyclable Paper+Foil,Very Low,India,390,3.9,12,5.8,None,60
+290,Forest Essentials Oil 2,Personal_Care,Plastic,Biodegradable Plastic,Low,India,521,4.6,7,1.3,GreenPro,63
+291,Colin Glass Cleaner 1,Homecare,Paper,Recyclable Paper+Foil,Medium,Bangladesh,1221,5.3,88,0.6,None,65
+292,Lenovo IdeaPad 2,Electronics,Metal+Plastic,Compostable Packaging,Very High,China,4318,46.0,35,4.3,None,40
+293,Biotique Face Pack 1,Personal_Care,Glass,Biodegradable Paper,Low,India,624,3.7,94,0.8,Ecomark,87
+294,Bata Sandals 2,Clothing,Synthetic,Reusable Container,Very Low,India,806,5.0,15,4.8,Energy Star,69
+295,Lakme Lipstick 2,Personal_Care,Glass,Minimal Packaging,Very Low,China,4772,6.3,97,0.8,None,71
+296,Pilot V5 2,Stationery,Paper,Biodegradable Plastic,Low,China,4835,6.6,85,2.0,GOTS,75
+297,Lenovo IdeaPad 3,Electronics,Metal+Plastic,Compostable Packaging,Very High,China,4369,46.2,33,4.3,None,40
+298,Lenovo IdeaPad 4,Electronics,Metal+Plastic,Compostable Packaging,Very High,China,4314,46.1,37,4.3,None,44
+299,Wonderchef Kadhai 2,Kitchenware,Aluminum,Recyclable Plastic,Very High,China,4077,40.2,88,14.7,None,57
+300,Woodland Shoes 2,Clothing,Synthetic,Reusable Container,Medium,Vietnam,3306,10.4,14,2.6,BIS,48
+301,Vim Dishwash 2,Homecare,Plastic,Recyclable Plastic,Medium,India,674,7.0,12,0.7,None,47
+302,JBL Bluetooth Speaker 1,Electronics,Metal+Plastic,Biodegradable Paper,High,South Korea,6200,28.5,28,6.5,FSC,58
+303,Dettol Handwash 2,Personal_Care,Paper,Compostable Packaging,Medium,India,480,4.4,73,1.0,Energy Star,80
+304,Cello Tape 1,Stationery,Paper,Reusable Container,Low,South Korea,5748,7.6,92,1.3,None,73
+305,Ghadi Detergent 2,Homecare,Paper,Minimal Packaging,Very Low,India,209,1.8,82,1.6,None,79
+306,Staedtler Marker 2,Stationery,Paper,Recyclable Plastic,Medium,India,269,4.4,87,2.9,Energy Star,84
+307,Classmate Notebook 1,Stationery,Plastic,Recyclable Plastic,Low,China,3912,7.3,35,2.1,None,52
+308,HP Laptop 15s 2,Electronics,Plastic,Recyclable Plastic,High,Vietnam,3861,13.4,12,7.6,None,45
+309,Classmate Notebook 2,Stationery,Plastic,Recyclable Plastic,Low,China,4001,7.4,29,2.1,None,55
+310,Sumeet Mixer 1,Kitchenware,Glass,Recyclable Cardboard,Medium,India,71,4.7,98,16.7,None,84
+311,Amul Butter 1,FMCG_Food,Metal,Compostable Packaging,Low,India,360,8.3,68,1.2,GOTS,80
+312,Pigeon Gas Stove 4,Kitchenware,Aluminum,Recyclable Plastic,Very High,China,4307,40.1,83,17.3,Energy Star,63
+313,Mayor Cricket Pads 1,Sports,Plastic,Reusable Container,Medium,China,4849,10.4,17,1.5,None,42
+314,Doms Sharpener 2,Stationery,Wood,Compostable Packaging,Low,China,3698,7.0,75,2.7,None,73
+315,Lakme Lipstick 3,Personal_Care,Glass,Minimal Packaging,Very Low,China,4774,6.1,99,0.8,None,74
+316,H&M Top 3,Clothing,Synthetic,Biodegradable Paper,Low,India,684,6.5,15,2.9,FSSAI,66
+317,SS Cricket Bat 2,Sports,Cotton,Recyclable Plastic,Medium,India,713,8.3,90,2.4,None,73
+318,W for Woman Kurti 2,Clothing,Plastic,Biodegradable Paper,Low,India,427,4.7,15,1.6,Ecomark,62
+319,Morphy Richards Toaster 1,Kitchenware,Aluminum,Recyclable Plastic,Medium,India,428,13.3,72,13.7,None,71
+320,Kipsta Shoes 2,Sports,Synthetic,Recyclable Paper+Foil,Very Low,India,474,3.7,11,5.8,None,56
+321,Godrej Air Freshener 3,Homecare,Plastic,Reusable Container,Medium,India,396,6.9,26,1.7,None,62
+322,Nayasa Lunchbox 1,Kitchenware,Aluminum,Recyclable Paper+Foil,Medium,India,406,12.5,86,18.5,None,78
+323,Lakme Lipstick 4,Personal_Care,Glass,Minimal Packaging,Very Low,China,4688,5.8,96,0.8,None,73
+324,Uniqlo Jacket 2,Clothing,Plastic,Recyclable Paper+Foil,Very Low,India,229,2.7,31,3.5,GreenPro,63
+325,Everest Masala 2,FMCG_Food,Plastic+Paper,Reusable Container,Low,Sri Lanka,613,4.0,46,1.2,None,69
+326,Havells Iron 1,Electronics,Metal+Plastic,Biodegradable Paper,High,Vietnam,3893,26.2,47,2.1,Ecomark,53
+327,Faber Castell Colors 3,Stationery,Paper,Recyclable Glass,Very Low,India,659,1.7,74,2.5,GreenPro,89
+328,Dominar Copy 4,Stationery,Paper,Biodegradable Plastic,Low,India,226,3.4,84,1.0,Ecomark,77
+329,Nayasa Lunchbox 2,Kitchenware,Aluminum,Recyclable Paper+Foil,Medium,India,346,13.2,87,18.5,None,78
+330,Prestige Pressure Cooker 2,Kitchenware,Metal,Recyclable Paper+Foil,High,India,219,16.8,87,9.4,None,68
+331,Nayasa Lunchbox 3,Kitchenware,Aluminum,Recyclable Paper+Foil,Medium,India,342,12.8,87,18.5,None,77
+332,Nirma Detergent 3,Homecare,Paper,Recyclable Plastic,Low,India,489,2.8,65,1.6,BIS,76
+333,Nayasa Lunchbox 4,Kitchenware,Aluminum,Recyclable Paper+Foil,Medium,India,369,13.4,84,18.5,None,79
+334,Parle-G Biscuits 3,FMCG_Food,Plastic,Biodegradable Plastic,Medium,India,230,6.0,30,0.9,None,57
+335,Faber Castell Colors 4,Stationery,Paper,Recyclable Glass,Very Low,India,644,1.3,76,2.5,GreenPro,84
+336,Jockey Innerwear 3,Clothing,Cotton,Recyclable Paper+Foil,Medium,Bangladesh,1404,9.0,91,3.0,Ecomark,77
+337,Mortein Mosquito Coil 1,Homecare,Plastic,Multi-layer Plastic,Very Low,India,767,2.7,15,0.8,BIS,44
+338,Staedtler Marker 3,Stationery,Paper,Recyclable Plastic,Medium,India,311,4.4,86,2.9,Energy Star,88
+339,Puma Gym Bag 1,Sports,Synthetic,Recyclable Cardboard,Low,India,743,6.0,2,2.4,None,51
+340,Fevicol Glue 1,Stationery,Paper,Compostable Packaging,Medium,India,659,4.7,74,2.7,None,82
+341,Faber Castell Colors 5,Stationery,Paper,Recyclable Glass,Very Low,India,622,1.6,72,2.5,GreenPro,88
+342,Manyavar Sherwani 4,Clothing,Cotton,Biodegradable Paper,Low,Vietnam,3078,7.5,89,4.9,None,78
+343,Kipsta Shoes 3,Sports,Synthetic,Recyclable Paper+Foil,Very Low,India,406,3.7,13,5.8,None,60
+344,Kipsta Shoes 4,Sports,Synthetic,Recyclable Paper+Foil,Very Low,India,422,3.5,8,5.8,None,59
+345,WOW Skin Science 1,Personal_Care,Paper,Multi-layer Plastic,Medium,India,510,3.9,90,1.9,None,71
+346,Reynolds Pen 2,Stationery,Wood,Biodegradable Paper,Very Low,India,732,3.6,67,2.1,None,74
+347,Decathlon Yoga Mat 1,Sports,Metal,Reusable Container,Low,India,257,8.2,78,1.3,None,74
+348,Philips LED Bulb 2,Electronics,Metal+Plastic,Biodegradable Paper,Medium,China,3628,16.9,45,7.0,Energy Star,64
+349,Boat Airdopes 2,Electronics,Metal+Plastic,Recyclable Plastic,High,Vietnam,3566,26.2,40,7.2,Ecomark,54
+350,The Body Shop Cream 1,Personal_Care,Plastic,Biodegradable Paper,Low,India,457,4.6,37,1.9,None,73
+351,Sumeet Mixer 2,Kitchenware,Glass,Recyclable Cardboard,Medium,India,119,5.2,95,16.7,None,88
+352,All Out Refill 1,Homecare,Plastic,Minimal Packaging,Medium,India,338,6.3,28,1.6,None,61
+353,Kangaro Stapler 2,Stationery,Plastic,Compostable Packaging,Medium,India,433,6.4,34,2.8,GreenPro,74
+354,SG Cricket Ball 1,Sports,Synthetic,Biodegradable Plastic,Very Low,Vietnam,3323,5.3,8,4.5,None,49
+355,Hit Spray 1,Homecare,Paper,Recyclable Plastic,Medium,India,229,5.0,85,1.8,None,80
+356,Camlin Crayons 3,Stationery,Wood,Minimal Packaging,Medium,Thailand,2752,8.1,82,2.5,None,69
+357,Plum Goodness Serum 1,Personal_Care,Paper,Multi-layer Plastic,Low,India,694,2.7,79,1.8,None,67
+358,Ujala Supreme 2,Homecare,Plastic,Recyclable Plastic,Low,Japan,6697,9.8,11,2.0,None,51
+359,Amul Butter 2,FMCG_Food,Metal,Compostable Packaging,Low,India,405,8.5,67,1.2,GOTS,82
+360,Reebok Dumbbells 1,Sports,Cotton,Biodegradable Plastic,Medium,India,296,8.1,78,2.7,Ecomark,79
+361,Puma Gym Bag 2,Sports,Synthetic,Recyclable Cardboard,Low,India,690,6.5,6,2.4,None,51
+362,Ariel Detergent 3,Homecare,Plastic,Compostable Packaging,Low,India,774,4.8,14,1.7,FSSAI,71
+363,Puma Gym Bag 3,Sports,Synthetic,Recyclable Cardboard,Low,India,718,6.6,6,2.4,None,51
+364,Reebok Dumbbells 2,Sports,Cotton,Biodegradable Plastic,Medium,India,366,8.1,85,2.7,Ecomark,77
+365,Godrej Air Freshener 4,Homecare,Plastic,Reusable Container,Medium,India,395,6.7,25,1.7,None,66
+366,Uniqlo Jacket 3,Clothing,Plastic,Recyclable Paper+Foil,Very Low,India,179,2.2,27,3.5,GreenPro,64
+367,Cello Tape 2,Stationery,Paper,Reusable Container,Low,South Korea,5725,7.5,87,1.3,None,68
+368,Havells Iron 2,Electronics,Metal+Plastic,Biodegradable Paper,High,Vietnam,3957,26.8,44,2.1,Ecomark,53
+369,Surf Excel Liquid 2,Homecare,Plastic,Minimal Packaging,Medium,India,237,6.5,29,1.2,None,64
+370,Milton Casserole 4,Kitchenware,Plastic,Recyclable Glass,Very High,India,434,21.2,36,13.2,None,60
+371,Staedtler Marker 4,Stationery,Paper,Recyclable Plastic,Medium,India,362,5.1,89,2.9,Energy Star,85
+372,MDH Spices 1,FMCG_Food,Plastic+Paper,Recyclable Glass,Medium,India,711,6.2,65,0.9,None,72
+373,Spartan Cricket Helmet 3,Sports,Plastic,Minimal Packaging,Very Low,Vietnam,3526,4.5,40,4.7,None,61
+374,Cosco Basketball 1,Sports,Metal,Recyclable Plastic,Very Low,Bangladesh,903,5.0,85,2.9,None,72
+375,Allen Solly Shirt 2,Clothing,Cotton,Recyclable Glass,Low,Bangladesh,832,5.8,87,4.1,Ecomark,85
+376,Scotch-Brite Scrubber 2,Homecare,Plastic,Multi-layer Plastic,Medium,India,395,6.7,31,1.2,Ecomark,52
+377,Fortune Sunflower Oil 1,FMCG_Food,Paper,Recyclable Plastic,Medium,India,711,4.8,74,0.6,Energy Star,73
+378,SG Cricket Ball 2,Sports,Synthetic,Biodegradable Plastic,Very Low,Vietnam,3335,5.7,12,4.5,None,48
+379,Ariel Detergent 4,Homecare,Plastic,Compostable Packaging,Low,India,714,4.0,15,1.7,FSSAI,68
+380,Aquaguard RO 1,Kitchenware,Aluminum,Recyclable Glass,High,India,443,20.6,86,12.5,None,73
+381,Blackberrys Blazer 2,Clothing,Cotton,Multi-layer Plastic,Low,India,443,6.4,91,1.2,None,64
+382,Nayasa Lunchbox 5,Kitchenware,Aluminum,Recyclable Paper+Foil,Medium,India,391,13.4,92,18.5,None,75
+383,Parle-G Biscuits 4,FMCG_Food,Plastic,Biodegradable Plastic,Medium,India,203,5.6,30,0.9,None,61
+384,Staedtler Marker 5,Stationery,Paper,Recyclable Plastic,Medium,India,268,5.1,92,2.9,Energy Star,88
+385,Puma T-Shirt 3,Clothing,Plastic,Multi-layer Plastic,Medium,India,731,7.1,25,2.3,None,47
+386,Oddy Files 1,Stationery,Paper,Recyclable Plastic,Medium,India,522,4.9,89,0.5,None,67
+387,Prestige Induction Cooktop 2,Electronics,Metal+Plastic,Biodegradable Paper,High,Germany,7636,29.0,41,5.6,None,51
+388,Kipsta Shoes 5,Sports,Synthetic,Recyclable Paper+Foil,Very Low,India,465,3.9,10,5.8,None,58
+389,Mother Dairy Milk 3,FMCG_Food,Metal,Multi-layer Plastic,Very Low,India,202,4.3,73,1.2,None,65
+390,Scotch-Brite Scrubber 3,Homecare,Plastic,Multi-layer Plastic,Medium,India,440,6.5,29,1.2,Ecomark,52
+391,Puma Gym Bag 4,Sports,Synthetic,Recyclable Cardboard,Low,India,682,5.8,7,2.4,None,52
+392,Puma T-Shirt 4,Clothing,Plastic,Multi-layer Plastic,Medium,India,748,6.8,24,2.3,None,46
+393,Dominar Copy 5,Stationery,Paper,Biodegradable Plastic,Low,India,199,3.2,88,1.0,Ecomark,78
+394,Reebok Dumbbells 3,Sports,Cotton,Biodegradable Plastic,Medium,India,322,8.3,78,2.7,Ecomark,74
+395,SS Cricket Bat 3,Sports,Cotton,Recyclable Plastic,Medium,India,680,8.4,96,2.4,None,76
+396,Jockey Innerwear 4,Clothing,Cotton,Recyclable Paper+Foil,Medium,Bangladesh,1428,8.9,87,3.0,Ecomark,75
+397,Nirlep Frying Pan 1,Kitchenware,Glass,Recyclable Glass,Very High,Thailand,3447,21.2,89,16.2,BIS,78
+398,SS Cricket Bat 4,Sports,Cotton,Recyclable Plastic,Medium,India,706,8.8,94,2.4,None,73
+399,Sumeet Mixer 3,Kitchenware,Glass,Recyclable Cardboard,Medium,India,89,5.5,96,16.7,None,85
+400,Dettol Handwash 3,Personal_Care,Paper,Compostable Packaging,Medium,India,449,4.5,75,1.0,Energy Star,78
+401,Nayasa Lunchbox 6,Kitchenware,Aluminum,Recyclable Paper+Foil,Medium,India,365,13.2,91,18.5,None,75
+402,Milton Casserole 5,Kitchenware,Plastic,Recyclable Glass,Very High,India,477,20.6,36,13.2,None,58
+403,Vim Dishwash 3,Homecare,Plastic,Recyclable Plastic,Medium,India,695,6.6,8,0.7,None,50
+404,Aquaguard RO 2,Kitchenware,Aluminum,Recyclable Glass,High,India,457,20.5,83,12.5,None,71
+405,Scotch-Brite Scrubber 4,Homecare,Plastic,Multi-layer Plastic,Medium,India,381,5.9,29,1.2,Ecomark,50
+406,Burn Gym Gloves 1,Sports,Metal,Recyclable Glass,Very Low,India,443,4.5,73,2.2,None,71
+407,Ujala Supreme 3,Homecare,Plastic,Recyclable Plastic,Low,Japan,6696,9.3,10,2.0,None,47
+408,Adidas Running Shoes 2,Sports,Synthetic,Recyclable Plastic,Very Low,India,532,4.1,12,1.8,Energy Star,51
+409,Cello Tape 3,Stationery,Paper,Reusable Container,Low,South Korea,5771,7.8,91,1.3,None,72
+410,Philips Air Fryer 1,Kitchenware,Glass,Multi-layer Plastic,Medium,India,235,5.5,88,11.7,None,66
+411,Surf Excel Liquid 3,Homecare,Plastic,Minimal Packaging,Medium,India,189,6.1,36,1.2,None,61
+412,Jockey Innerwear 5,Clothing,Cotton,Recyclable Paper+Foil,Medium,Bangladesh,1354,8.3,96,3.0,Ecomark,73
+413,WOW Skin Science 2,Personal_Care,Paper,Multi-layer Plastic,Medium,India,523,4.7,87,1.9,None,71
+414,Samsung Washing Machine 3,Electronics,Plastic,Biodegradable Plastic,Medium,India,389,6.4,27,3.9,FSSAI,63
+415,Nivia Football 2,Sports,Metal,Biodegradable Plastic,Medium,India,699,10.9,72,4.3,BIS,76
+416,Samsung Galaxy M32 4,Electronics,Metal+Glass,Recyclable Plastic,High,India,465,27.6,53,3.4,BIS,59
+417,Puma T-Shirt 5,Clothing,Plastic,Multi-layer Plastic,Medium,India,809,6.6,27,2.3,None,46
+418,Reebok Dumbbells 4,Sports,Cotton,Biodegradable Plastic,Medium,India,362,8.2,83,2.7,Ecomark,77
+419,Cello Tape 4,Stationery,Paper,Reusable Container,Low,South Korea,5704,7.0,93,1.3,None,70
+420,Kores Correction Tape 3,Stationery,Plastic,Biodegradable Plastic,Very Low,India,401,2.3,24,1.7,None,63
+421,Papermate Pen 3,Stationery,Plastic,Compostable Packaging,Very Low,India,562,2.8,11,1.2,FSSAI,63
+422,Decathlon Yoga Mat 2,Sports,Metal,Reusable Container,Low,India,231,8.1,83,1.3,None,70
+423,Cello Tape 5,Stationery,Paper,Reusable Container,Low,South Korea,5720,7.2,85,1.3,None,71
+424,Samsung Washing Machine 4,Electronics,Plastic,Biodegradable Plastic,Medium,India,406,6.2,30,3.9,FSSAI,63
+425,Vinod Cookware 1,Kitchenware,Glass,Multi-layer Plastic,Very High,Bangladesh,925,19.1,99,10.4,Ecomark,65
+426,Stovekraft Cooker 1,Kitchenware,Metal,Biodegradable Paper,Very High,China,3827,35.3,91,13.1,None,66
+427,Redmi Note 12 2,Electronics,Plastic,Recyclable Cardboard,High,India,101,10.3,16,5.1,GOTS,59
+428,Jaspo Skating Shoes 2,Sports,Metal,Biodegradable Paper,Very Low,India,664,4.5,83,3.3,GreenPro,84
+429,Philips LED Bulb 3,Electronics,Metal+Plastic,Biodegradable Paper,Medium,China,3624,16.6,47,7.0,Energy Star,62
+430,Butterfly Mixer 1,Kitchenware,Plastic,Reusable Container,Medium,China,4500,9.8,6,14.3,Ecomark,56
+431,H&M Top 4,Clothing,Synthetic,Biodegradable Paper,Low,India,675,6.4,15,2.9,FSSAI,61
+432,Aashirvaad Atta 2,FMCG_Food,Plastic,Biodegradable Plastic,Very Low,India,339,2.3,22,0.5,None,54
+433,HP Laptop 15s 3,Electronics,Plastic,Recyclable Plastic,High,Vietnam,3895,13.6,10,7.6,None,45
+434,HP Laptop 15s 4,Electronics,Plastic,Recyclable Plastic,High,Vietnam,3938,13.4,14,7.6,None,45
+435,Samsung Galaxy M32 5,Electronics,Metal+Glass,Recyclable Plastic,High,India,396,27.2,50,3.4,BIS,58
+436,JBL Bluetooth Speaker 2,Electronics,Metal+Plastic,Biodegradable Paper,High,South Korea,6146,28.1,33,6.5,FSC,58
+437,Hit Spray 2,Homecare,Paper,Recyclable Plastic,Medium,India,259,4.7,84,1.8,None,78
+438,Lenovo IdeaPad 5,Electronics,Metal+Plastic,Compostable Packaging,Very High,China,4327,45.9,34,4.3,None,43
+439,Kent Water Purifier 3,Kitchenware,Metal,Recyclable Cardboard,Very High,China,4138,34.6,81,7.2,None,53
+440,Himalaya Face Wash 1,Personal_Care,Glass,Biodegradable Plastic,Very Low,India,688,2.0,86,1.9,GOTS,90
+441,Puma T-Shirt 6,Clothing,Plastic,Multi-layer Plastic,Medium,India,752,6.9,26,2.3,None,48
+442,Puma Gym Bag 5,Sports,Synthetic,Recyclable Cardboard,Low,India,712,6.2,4,2.4,None,55
+443,Britannia Marie Gold 2,FMCG_Food,Glass,Biodegradable Paper,Low,India,487,3.0,94,0.2,None,76
+444,Voltas Air Cooler 3,Electronics,Metal+Plastic,Minimal Packaging,High,China,3762,26.1,30,7.3,None,50
+445,Levi's Jeans 2,Clothing,Plastic,Biodegradable Paper,Very Low,India,566,2.1,36,2.2,GOTS,65
+446,Amul Cheese 1,FMCG_Food,Paper,Minimal Packaging,Very Low,Thailand,3069,4.1,69,0.3,None,62
+447,Jaspo Skating Shoes 3,Sports,Metal,Biodegradable Paper,Very Low,India,584,4.5,82,3.3,GreenPro,84
+448,Raymond Suit 1,Clothing,Cotton,Biodegradable Plastic,Medium,India,749,8.6,94,2.7,None,75
+449,Bajaj OTG 2,Kitchenware,Plastic,Biodegradable Paper,High,India,469,10.7,18,14.3,None,57
+450,Dabur Honey 1,FMCG_Food,Metal,Reusable Container,Very Low,India,122,3.8,77,1.2,None,82
+451,Scotch-Brite Scrubber 5,Homecare,Plastic,Multi-layer Plastic,Medium,India,344,6.7,32,1.2,Ecomark,51
+452,Camlin Crayons 4,Stationery,Wood,Minimal Packaging,Medium,Thailand,2723,8.1,82,2.5,None,70
+453,Prestige Induction Cooktop 3,Electronics,Metal+Plastic,Biodegradable Paper,High,Germany,7594,28.5,40,5.6,None,50
+454,Boat Airdopes 3,Electronics,Metal+Plastic,Recyclable Plastic,High,Vietnam,3543,25.6,48,7.2,Ecomark,54
+455,Ujala Supreme 4,Homecare,Plastic,Recyclable Plastic,Low,Japan,6664,9.7,14,2.0,None,51
+456,Raymond Suit 2,Clothing,Cotton,Biodegradable Plastic,Medium,India,691,8.5,92,2.7,None,79
+457,Cif Cream 2,Homecare,Plastic+Paper,Compostable Packaging,Very Low,Vietnam,2944,4.8,49,1.0,None,61
+458,Scotch-Brite Scrubber 6,Homecare,Plastic,Multi-layer Plastic,Medium,India,442,6.2,35,1.2,Ecomark,55
+459,Sumeet Mixer 4,Kitchenware,Glass,Recyclable Cardboard,Medium,India,76,5.4,95,16.7,None,88
+460,Kipsta Shoes 6,Sports,Synthetic,Recyclable Paper+Foil,Very Low,India,426,3.8,11,5.8,None,55
+461,Mamaearth Baby Wash 1,Personal_Care,Plastic,Recyclable Cardboard,Low,India,149,4.5,15,0.7,None,55
+462,Cello Tape 6,Stationery,Paper,Reusable Container,Low,South Korea,5704,7.4,88,1.3,None,69
+463,MTR Ready Mix 2,FMCG_Food,Glass,Multi-layer Plastic,Low,India,649,3.8,90,1.1,None,69
+464,Realme Smart TV 1,Electronics,Plastic,Recyclable Plastic,High,China,4167,13.4,15,3.5,GOTS,46
+465,Jockey Innerwear 6,Clothing,Cotton,Recyclable Paper+Foil,Medium,Bangladesh,1392,8.4,91,3.0,Ecomark,74
+466,Soch Ethnic Wear 2,Clothing,Synthetic,Recyclable Paper+Foil,Medium,China,4787,11.6,22,3.5,BIS,53
+467,Mamaearth Baby Wash 2,Personal_Care,Plastic,Recyclable Cardboard,Low,India,93,3.8,21,0.7,None,56
+468,Milton Casserole 6,Kitchenware,Plastic,Recyclable Glass,Very High,India,477,21.1,29,13.2,None,59
+469,Boat Airdopes 4,Electronics,Metal+Plastic,Recyclable Plastic,High,Vietnam,3546,25.7,48,7.2,Ecomark,54
+470,Signoraware Lunchbox 1,Kitchenware,Aluminum,Recyclable Plastic,Very High,USA,14391,48.5,91,15.4,None,54
+471,LG Refrigerator 1,Electronics,Metal+Plastic,Compostable Packaging,High,Japan,6653,28.5,49,2.2,Ecomark,51
+472,Colin Glass Cleaner 2,Homecare,Paper,Recyclable Paper+Foil,Medium,Bangladesh,1272,5.2,86,0.6,None,65
+473,Spartan Cricket Helmet 4,Sports,Plastic,Minimal Packaging,Very Low,Vietnam,3573,4.8,39,4.7,None,62
+474,Luxor Highlighter 1,Stationery,Plastic,Biodegradable Plastic,Medium,USA,13183,16.3,24,0.9,None,41
+475,Mayor Cricket Pads 2,Sports,Plastic,Reusable Container,Medium,China,4869,10.1,17,1.5,None,45
+476,Faber Castell Colors 6,Stationery,Paper,Recyclable Glass,Very Low,India,641,1.3,77,2.5,GreenPro,87
+477,Amul Cheese 2,FMCG_Food,Paper,Minimal Packaging,Very Low,Thailand,3155,3.4,65,0.3,None,63
+478,Milton Casserole 7,Kitchenware,Plastic,Recyclable Glass,Very High,India,420,20.7,33,13.2,None,58
+479,Doms Sharpener 3,Stationery,Wood,Compostable Packaging,Low,China,3765,6.9,79,2.7,None,75
+480,Peter England Trousers 1,Clothing,Plastic,Multi-layer Plastic,Medium,India,225,5.8,15,4.4,GreenPro,52
+481,Havells Iron 3,Electronics,Metal+Plastic,Biodegradable Paper,High,Vietnam,3932,26.7,45,2.1,Ecomark,53
+482,Mi Power Bank 1,Electronics,Metal+Plastic,Compostable Packaging,High,India,339,24.0,32,4.7,None,55
+483,Scotch-Brite Scrubber 7,Homecare,Plastic,Multi-layer Plastic,Medium,India,423,5.8,33,1.2,Ecomark,53
+484,Zara Dress 2,Clothing,Plastic,Compostable Packaging,Very Low,China,3866,5.3,22,2.6,None,50
+485,Burn Gym Gloves 2,Sports,Metal,Recyclable Glass,Very Low,India,460,4.0,68,2.2,None,74
+486,SS Cricket Bat 5,Sports,Cotton,Recyclable Plastic,Medium,India,736,8.5,93,2.4,None,75
+487,Kissan Ketchup 2,FMCG_Food,Paper,Recyclable Glass,Very Low,India,147,1.4,90,1.5,None,91
+488,Blackberrys Blazer 3,Clothing,Cotton,Multi-layer Plastic,Low,India,455,6.3,90,1.2,None,59
+489,Papermate Pen 4,Stationery,Plastic,Compostable Packaging,Very Low,India,536,2.1,14,1.2,FSSAI,62
+490,Monte Carlo Sweater 1,Clothing,Synthetic,Biodegradable Plastic,Very Low,Bangladesh,1199,5.1,18,4.6,None,58
+491,Crompton Fan 2,Electronics,Metal+Plastic,Recyclable Paper+Foil,Medium,Vietnam,3853,17.6,50,3.8,None,46
+492,Patanjali Ghee 1,FMCG_Food,Paper,Minimal Packaging,Very Low,India,416,1.2,89,0.6,None,79
+493,Nivea Body Lotion 2,Personal_Care,Plastic,Recyclable Cardboard,Medium,India,285,6.5,23,1.6,None,61
+494,Aashirvaad Atta 3,FMCG_Food,Plastic,Biodegradable Plastic,Very Low,India,307,2.3,26,0.5,None,56
+495,SG Cricket Ball 3,Sports,Synthetic,Biodegradable Plastic,Very Low,Vietnam,3303,5.7,11,4.5,None,53
+496,Nivia Football 3,Sports,Metal,Biodegradable Plastic,Medium,India,707,11.0,77,4.3,BIS,76
+497,Vinod Cookware 2,Kitchenware,Glass,Multi-layer Plastic,Very High,Bangladesh,875,19.0,98,10.4,Ecomark,63
+498,Yonex Badminton Racket 2,Sports,Metal,Minimal Packaging,Medium,India,367,11.0,99,3.1,None,76
+499,Ghadi Detergent 3,Homecare,Paper,Minimal Packaging,Very Low,India,179,1.9,86,1.6,None,80
+500,All Out Refill 2,Homecare,Plastic,Minimal Packaging,Medium,India,317,6.7,26,1.6,None,66
